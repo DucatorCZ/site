@@ -1,1 +1,1 @@
-## https://ribardej.github.io/kaj-semestral/
+## https://ducatorcz.github.io/site/
