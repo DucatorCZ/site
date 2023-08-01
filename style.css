@@ -3,7 +3,7 @@ body {
 }
 h1 {
     text-align: center;
-    color: #4CAF50;
+    color: #0054e6;
 }
 h2 {
     text-align: center;
@@ -47,7 +47,7 @@ td:hover {
     font-size: 1em;
 }
 button {
-    background-color: #4CAF50;
+    background-color: #0054e6;
     color: white;
     padding: 14px 20px;
     margin: 0.5em 0;
