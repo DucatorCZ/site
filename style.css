@@ -8,10 +8,23 @@ h1 {
 h2 {
     text-align: center;
 }
+#svgIcon {
+    width: 333px;
+
+}
+.container {
+    margin-left: 0;
+    padding-left: 0;
+}
+/* .navbar-collapse {
+    align-items: center;
+    justify-content: center;
+} */
 table {
     border-collapse: collapse;
     background-color: rgb(227, 227, 227);
 }
+
 th, td {
     border: 1px solid black;
     padding: 8px 4px;
@@ -75,13 +88,14 @@ body {
     min-height: 100vh;
     background-color: black;
 }
+
 .page header {
     display: flex;
-    background: rgb(240, 240, 240);
-    height: 85px;
+    background: white;
+    height: 121px;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 #pageSection {
     display: flex;
@@ -107,6 +121,8 @@ body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 #appendColumnsLabel, #appendRowsLabel {
     padding: 0.5em;
