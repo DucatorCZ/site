@@ -10,7 +10,6 @@ h2 {
 }
 #svgIcon {
     width: 333px;
-
 }
 .container {
     margin-left: 0;
@@ -49,15 +48,6 @@ th:hover {
 td:hover {
     opacity: 0.69;
     background-color: white;
-}
-#editCellInput {
-    display: table-cell;
-    width: fit-content;
-    width: 87%;
-    height: 100%;
-    border: none;
-    text-align: center;
-    font-size: 1em;
 }
 button {
     background-color: #0054e6;
@@ -124,94 +114,7 @@ body {
     /* align-items: center; */
     /* justify-content: center; */
 }
-#appendColumnsLabel, #appendRowsLabel {
-    padding: 0.5em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-#appendRowsLabel {
-    width: fit-content;
-    justify-content: center;
-}
-#appendColumnsLabel:hover {
-    opacity: 0.8;
-    animation: horizontalMove 1.2s ease-in-out infinite;
-}
 
-#appendRowsLabel:hover {
-    opacity: 0.8;
-    animation: verticalMove 1.2s ease-in-out infinite;
-}
-
-@keyframes horizontalMove {
-    0% { transform: translateX(0%); }
-    50% { transform: translateX(21%) scale(1.1, 0.85); }
-    100% { transform: translateX(0%); }
-  }
-  
-  
-@keyframes verticalMove {
-    0% { transform: translateY(0%); }
-    50% { transform: translateY(21%) scale(0.85, 1.1); }
-    100% { transform: translateY(0%); }
-  }
-
-#appendColumns, #appendRows {
-    display: none;
-}
-#appendRowsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#tablePlusButtonContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    box-sizing: initial;
-    container-type: inline-size;
-}
-
-#excelDataTable {
-    white-space: nowrap;
-}
-#upAndDown{
-    margin-bottom: 1em;
-    height: fit-content;
-}
-#upAndDown label{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-#upAndDown label:hover{
-    cursor: pointer;
-    background-color: rgb(240, 240, 240);
-}
-#upAndDown label {
-    margin: 0.5em 0;
-    padding: 0.7em 0.5em;
-}
-#upAndDown input {
-    display: none;
-}
-#buttonDownload {
-    display: none;
-}
-#upAndDown {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
 .page footer {
     display: flex;
     background: rgb(232, 232, 232);
