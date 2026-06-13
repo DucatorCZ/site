@@ -1,0 +1,52 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.subtitle {
+  margin: -4px 0 0;
+  font-size: 1.05rem;
+}
+
+.headRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.yearNav {
+  display: flex;
+  gap: 8px;
+}
+
+.yearNavSpacer {
+  display: inline-block;
+}
+
+.topGrid {
+  display: grid;
+  grid-template-columns: minmax(320px, 1.1fr) 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.sideCol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (max-width: 860px) {
+  .topGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .headRight {
+    align-items: flex-start;
+  }
+}

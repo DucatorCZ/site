@@ -1,0 +1,25 @@
+:root {
+  /* Color */
+  --color-bg: #ffffff;
+  --color-surface: #f6f8fa;
+  --color-surface-2: #eef1f4;
+  --color-border: #d8dee4;
+  --color-text: #1a2330;
+  --color-text-muted: #57606a;
+  --color-accent: #0b57d0;
+  --color-accent-hover: #0842a0;
+  --color-accent-soft: #e8f0fe;
+  --color-gold: #9a6700;
+
+  /* Typography */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    monospace;
+
+  /* Layout */
+  --container-max: 1140px;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --shadow-card: 0 1px 3px rgba(16, 24, 40, 0.07);
+}

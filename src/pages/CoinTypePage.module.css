@@ -1,0 +1,39 @@
+.head {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.subtitle {
+  margin: -4px 0 4px;
+  font-size: 1.05rem;
+}
+
+.params {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.description {
+  max-width: 760px;
+}
+
+.variantBadge {
+  margin-right: 4px;
+}
+
+.note {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  white-space: normal;
+  max-width: 260px;
+}
+
+@media (max-width: 600px) {
+  .head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+}

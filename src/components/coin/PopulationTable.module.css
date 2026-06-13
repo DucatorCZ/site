@@ -1,0 +1,82 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.hint {
+  font-size: 0.85rem;
+}
+
+.wrapper {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.88rem;
+  min-width: max-content;
+}
+
+.table th,
+.table td {
+  padding: 9px 12px;
+  text-align: right;
+  border-bottom: 1px solid var(--color-border);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.table thead th {
+  background: var(--color-surface);
+  font-weight: 700;
+  position: sticky;
+  top: 0;
+}
+
+.table tbody tr:last-child th,
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.sticky {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: var(--color-surface);
+  text-align: left !important;
+  font-weight: 600;
+  min-width: 130px;
+  box-shadow: 1px 0 0 var(--color-border);
+}
+
+.zero {
+  color: var(--color-text-muted);
+  opacity: 0.75;
+}
+
+.plusCol {
+  background: var(--color-accent-soft);
+}
+
+.totalRow th,
+.totalRow td {
+  border-top: 2px solid var(--color-border);
+  font-weight: 700;
+}
+
+.priceRow td {
+  color: var(--color-gold);
+  font-weight: 600;
+}
+
+.note {
+  font-size: 0.82rem;
+  margin: 10px 2px 0;
+}

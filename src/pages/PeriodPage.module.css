@@ -1,0 +1,18 @@
+.lede {
+  max-width: 720px;
+}
+
+.coinCard {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.coinTitle {
+  margin-bottom: 2px;
+}
+
+.coinSub {
+  margin: 0 0 6px;
+  font-size: 0.88rem;
+}
