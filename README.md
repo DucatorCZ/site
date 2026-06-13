@@ -1,7 +1,7 @@
 # ČNDB – Česká Numismatická Databáze
 
 Katalog českých a československých mincí s populačními reporty (PCGS/NGC),
-odhady cen a aukčními výsledky. Česká obdoba [PCGS CoinFacts](https://www.pcgs.com/coinfacts).
+odhady cen a aukčními výsledky.
 
 ## Vývoj
 
